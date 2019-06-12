@@ -1,8 +1,8 @@
 // Default font
-$font-family-sans-serif: "PT Sans" !default;
+$font-family-sans-serif: "open sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 
-// Crimson links
-$link-color: #a51c30 !default;
+// links
+$link-color: rgb(48, 64, 79) !default;
 $link-hover-color: $link-color !default;
 
 // Import Bootstrap

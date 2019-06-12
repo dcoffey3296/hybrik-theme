@@ -2,8 +2,8 @@
 $font-family-sans-serif: "open sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 // links
-$link-color: rgb(48, 64, 79) !default;
-$link-hover-color: $link-color !default;
+$link-color: rgb(48, 64, 79);
+$link-hover-color: $link-color;
 
 // Import Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,24 @@
+.*
+!.gitignore
+!.travis.yml
+
+*.gem
+
+# https://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/
+Gemfile.lock
+
+_sass/package-lock.json
+_sass/node_modules/*
+
+!_sass/node_modules/bootstrap/
+_sass/node_modules/bootstrap/*
+!_sass/node_modules/bootstrap/LICENSE
+!_sass/node_modules/bootstrap/scss/
+
+!_sass/node_modules/primer-markdown/
+_sass/node_modules/primer-markdown/*
+!_sass/node_modules/primer-markdown/build/
+_sass/node_modules/primer-markdown/build/*
+!_sass/node_modules/primer-markdown/build/build.scss
+
+_site/
